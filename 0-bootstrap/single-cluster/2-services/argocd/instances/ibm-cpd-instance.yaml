@@ -29,6 +29,8 @@ spec:
         value: "Enterprise"
       - name: spec.storageClass
         value: "managed-nfs-storage"
+      - name: spec.zenCoreMetadbStorageClass
+    value: "managed-nfs-storage"
   syncPolicy:
     automated:
       prune: true
