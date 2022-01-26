@@ -17,7 +17,7 @@ cat 0-bootstrap/single-cluster/2-services/kustomization.yaml- argocd/namespace-d
 #- argocd/namespace-spp.yaml
 #- argocd/namespace-spp-velero.yaml
 #- argocd/namespace-baas.yaml
-#- argocd/serviceaccounts-tools.yaml
+- argocd/serviceaccounts-tools.yaml
 #- argocd/storage.yaml
 #- argocd/infraconfig.yaml
 #- argocd/machinesets.yaml
